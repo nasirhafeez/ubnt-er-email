@@ -1,0 +1,9 @@
+#!/bin/bash
+
+{
+    echo To: <Recipient email address>
+    echo From: <Sender email address>
+    echo Subject: Edge Router WAN Alert
+    echo
+    echo WAN down!
+} | ssmtp <Recipient email address>
