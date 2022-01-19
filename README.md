@@ -10,7 +10,7 @@ This script should be added to `/config/scripts` and made executable:
 chmod +x /config/scripts/wannotify
 ```
 
-It uses sSMTP for sending emails. The configuration file of sSMTP located at `/etc/ssmtp/ssmtp.conf` should be modified as given [here](https://github.com/nasirhafeez/ubnt-er-email/blob/main/ssmtp.conf). This script uses Gmail for sending emails. You would need to enable Less Secure Apps in [Settings](https://myaccount.google.com/lesssecureapps). for the sending Gmail account.
+It uses sSMTP for sending emails. The configuration file of sSMTP located at `/etc/ssmtp/ssmtp.conf` should be modified as given [here](https://github.com/nasirhafeez/ubnt-er-email/blob/main/ssmtp.conf). This script uses Gmail for sending emails. You would need to enable Less Secure Apps in [Settings](https://myaccount.google.com/lesssecureapps) for the sending Gmail account.
 
 The following command should be used to configure it as a load-balance transition script:
 
