@@ -1,6 +1,6 @@
 # Email Notification Script for Ubiquiti Edge Router
 
-This script is the implementation of the idea presented in [this](https://community.ui.com/questions/EdgeRouter-WAN-Failover-Email-Alert/d00d4332-6d39-472d-9cfd-3a4faf41f9b4) Unifi community post. It sends notification email whenever the WAN status changes in a dual WAN load-balancing scenario.
+This script is the implementation of the idea presented in [this](https://community.ui.com/questions/EdgeRouter-WAN-Failover-Email-Alert/d00d4332-6d39-472d-9cfd-3a4faf41f9b4) Unifi community post. It sends a notification email whenever the WAN status changes in a dual WAN load-balancing scenario.
 
 It has been tested successfully on EdgeRouter X v2.0.9.
 
