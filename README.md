@@ -10,6 +10,8 @@ This script should be added to `/config/scripts` and made executable:
 chmod +x /config/scripts/wannotify
 ```
 
+It uses sSMTP for sending emails. The configuration file of sSMTP located at `/etc/ssmtp/ssmtp.conf` should be modified as given in `ssmtp.conf`
+
 The following command should be used to configure it as a load-balance transition script:
 
 ```
